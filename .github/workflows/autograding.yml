@@ -1,6 +1,7 @@
 name: autograding
 
 on: [push]
+  workflow_dispatch:
 
 jobs:
   build:
